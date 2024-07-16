@@ -4,7 +4,7 @@
 
 Start zookeeper: bin\windows\zookeeper-server-start.bat config\zookeeper.properties
 
-Start kafka server: \bin\windows\kafka-server-start.bat .\config\server.properties
+Start kafka server: bin\windows\kafka-server-start.bat .\config\server.properties
 
 Create a new topic: bin\windows\kafka-topics.bat --create --topic test-events --bootstrap-server localhost:9092
 
