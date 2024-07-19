@@ -24,6 +24,8 @@
     <modules>
         <module>event-producer</module>
 		<module>event-consumer</module>
+		<module>bievent-producer</module>
+		<module>bievent-consumer</module>
 	</modules>
     <scm>
 		<connection/>
@@ -58,6 +60,11 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.data</groupId>
+			<artifactId>spring-data-mongodb</artifactId>
+			<version>4.3.2</version>
 		</dependency>
 	</dependencies>
 
