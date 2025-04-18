@@ -1,0 +1,11 @@
+---server.properties---
+process.roles=controller,broker
+controller.quorum.voters=1@localhost:9093
+listeners=PLAINTEXT://localhost:9092,CONTROLLER://localhost:9093
+inter.broker.listener.name=PLAINTEXT
+log.dirs=C:/kafka/logs
+
+commands
+1. C:\kafka> bin\windows\kafka-storage.bat random-uuid
+2. C:\kafka> bin\windows\kafka-storage.bat format -t Rhp-Ag0CTu6Jxi_th36uWQ -c config/server.properties
+3. C:\kafka> bin\windows\kafka-server-start.bat config/server.properties
