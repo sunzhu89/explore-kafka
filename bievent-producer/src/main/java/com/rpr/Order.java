@@ -6,6 +6,8 @@ public class Order {
     private double price;
     private int quantity;
 
+    public Order(){}
+
     public Order(Builder builder) {
         this.orderId = builder.orderId;
         this.orderItem = builder.orderItem;

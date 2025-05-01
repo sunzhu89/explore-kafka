@@ -1,0 +1,50 @@
+---
+orderId: 101
+orderItem: "Laptop"
+price: 95000.00
+quantity: 1
+---
+orderId: 102
+orderItem: "Wireless Mouse"
+price: 1200.50
+quantity: 2
+---
+orderId: 103
+orderItem: "Keyboard"
+price: 2500.00
+quantity: 1
+---
+orderId: 104
+orderItem: "Monitor"
+price: 15500.75
+quantity: 2
+---
+orderId: 105
+orderItem: "USB-C Hub"
+price: 3000.00
+quantity: 1
+---
+orderId: 106
+orderItem: "External Hard Drive"
+price: 4500.00
+quantity: 1
+---
+orderId: 107
+orderItem: "Webcam"
+price: 3200.00
+quantity: 1
+---
+orderId: 108
+orderItem: "Desk Lamp"
+price: 1500.25
+quantity: 2
+---
+orderId: 109
+orderItem: "Office Chair"
+price: 8500.00
+quantity: 1
+---
+orderId: 110
+orderItem: "Bluetooth Speaker"
+price: 2700.75
+quantity: 1
